@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-06-03T09:09:09.544Z</updated>
+  <updated>2018-06-03T13:15:18.478Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://yoursite.com/2018/04/13/iOS%20Auto%20Layout-%E6%A0%88%E8%A7%86%E5%9B%BE%EF%BC%88%E8%AF%91)/"/>
     <id>http://yoursite.com/2018/04/13/iOS Auto Layout-栈视图（译)/</id>
     <published>2018-04-13T12:22:46.000Z</published>
-    <updated>2018-06-03T09:09:09.544Z</updated>
+    <updated>2018-06-03T13:15:18.478Z</updated>
     
     <content type="html">&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
 &lt;p&gt;下面的内容主要介绍了如何使用 stack view 创建一些复杂的布局。Stack view 是一个很强悍的工具，使&lt;br&gt;用它设计用户界面会十分便捷。Stack view 的一些属性在很大程度上只能控制它的子视图如何排列。你可以通过增加一些额外的自定义约束，来更加精确地控制子视图的排列方式；然而，那样将会使布局变得十分复杂。&lt;/p&gt;
@@ -296,9 +296,10 @@
     <link href="http://yoursite.com/2018/04/08/iOS%20Auto%20Layout-%E4%BD%BF%E7%94%A8%20Interface%20Builder%20%E5%B8%83%E5%B1%80%EF%BC%88%E8%AF%91)/"/>
     <id>http://yoursite.com/2018/04/08/iOS Auto Layout-使用 Interface Builder 布局（译)/</id>
     <published>2018-04-08T14:02:47.000Z</published>
-    <updated>2018-06-03T08:23:22.766Z</updated>
+    <updated>2018-06-03T13:15:04.347Z</updated>
     
-    <content type="html">&lt;p&gt;在Interface Bulider 上有三种方式可以设置约束：你可以通过按住 control 键并拖拽设置约束，&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;可以通过 Pin 和 Align 这两个工具设置约束，还可以让 Interface Builder 自动设置约束，然后在这基础上手动做一些改变。每一种设置方式都有它的优势与劣势。大部分开发者比较倾向于只是用一种方式。但是，熟悉三种方式的使用，能够让你在开发过程中根据实际需求进行快速切换，提高效率。&lt;/p&gt;
+    <content type="html">&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;在Interface Bulider 上有三种方式可以设置约束：你可以通过按住 control 键并拖拽设置约束，可以通过 Pin 和 Align 这两个工具设置约束，还可以让 Interface Builder 自动设置约束，然后在这基础上手动做一些改变。每一种设置方式都有它的优势与劣势。大部分开发者比较倾向于只是用一种方式。但是，熟悉三种方式的使用，能够让你在开发过程中根据实际需求进行快速切换，提高效率。&lt;/p&gt;
 &lt;p&gt;你可以这样将三种方式配合使用。首先从 Object library 中拖拽几个 view 和控件到画布上。根据你的需要改变他们的大小和位置。当你将 view 放到画布上之后，Interface Builder 会以左上角为基准，自动创建一些约束来定义 view 的大小和位置。&lt;/p&gt;
 &lt;p&gt;你的 APP 在使用默认约束的情况下，可以正常编译和运行。先通过设置这些约束，对界面进行测试和预览，然后根据你自己的需求使用新的约束替换到默认约束。永远不要直接在 APP 中使用系统默认设置的约束。&lt;/p&gt;
 &lt;p&gt;一旦你创建了自己的约束，被影响到的系统的默认的约束会被移除掉。没有了原来的这些约束，就不能再准确地定义 view 的大小和位置。这样就编程一个模糊不清的布局。被影响的约束会突然变成红色，Xcode 也会报出一些警告。&lt;/p&gt;
@@ -443,7 +444,8 @@
     
     <summary type="html">
     
-      &lt;p&gt;在Interface Bulider 上有三种方式可以设置约束：你可以通过按住 control 键并拖拽设置约束，
+      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;在Interface Bulider 上有三种方式可以设置约束：你可以通过按住 control 键并拖拽设置约束，可以通过 Pin 和 Align 这两个工具设置约束，还可以让 Interface Builder 自动设置约束，然后在这基
     
     </summary>
     
@@ -459,9 +461,10 @@
     <link href="http://yoursite.com/2018/04/08/iOS%20Auto%20Layout-%E7%BA%A6%E6%9D%9F%E7%9A%84%E6%9C%AC%E8%B4%A8%EF%BC%88%E8%AF%91)/"/>
     <id>http://yoursite.com/2018/04/08/iOS Auto Layout-约束的本质（译)/</id>
     <published>2018-04-08T06:23:40.000Z</published>
-    <updated>2018-06-03T08:22:28.667Z</updated>
+    <updated>2018-06-03T13:15:13.394Z</updated>
     
-    <content type="html">&lt;p&gt;对视图层级布局，实际上是定义了一系列的线性方程式。每一条约束代表一个方程式。你的目的就是通过声明一些列的方程式，并使其只有一组最优解。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+    <content type="html">&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;对视图层级布局，实际上是定义了一系列的线性方程式。每一条约束代表一个方程式。你的目的就是通过声明一些列的方程式，并使其只有一组最优解。&lt;/p&gt;
 &lt;p&gt;下面展示了一组简单的方程式.&lt;/p&gt;
 &lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;img src=&quot;https://developer.apple.com/library/content/documentation/UserExperience/Conceptual/AutolayoutPG/Art/view_formula_2x.png&quot; width=&quot;530&quot; height=&quot;230&quot;&gt;&lt;br&gt;&lt;/div&gt;
 
@@ -652,7 +655,10 @@
     
     <summary type="html">
     
-      &lt;p&gt;对视图层级布局，实际上是定义了一系列的线性方程式。每一条约束代表一个方程式。你的目的就是通过声明一些列的方程式，并使其只有一组最优解。&lt;br&gt;
+      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;对视图层级布局，实际上是定义了一系列的线性方程式。每一条约束代表一个方程式。你的目的就是通过声明一些列的方程式，并使其只有一组最优解。&lt;/p&gt;
+&lt;p&gt;下面展示了一组简单的方程式.&lt;/p&gt;
+&lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;
     
     </summary>
     
@@ -668,9 +674,10 @@
     <link href="http://yoursite.com/2018/04/07/iOS%20Auto%20Layout-%E4%B8%8D%E4%BD%BF%E7%94%A8%E7%BA%A6%E6%9D%9F%E5%B8%83%E5%B1%80%EF%BC%88%E8%AF%91)/"/>
     <id>http://yoursite.com/2018/04/07/iOS Auto Layout-不使用约束布局（译)/</id>
     <published>2018-04-07T12:01:23.000Z</published>
-    <updated>2018-06-03T08:23:50.267Z</updated>
+    <updated>2018-06-03T13:14:32.848Z</updated>
     
-    <content type="html">&lt;p&gt;Stack view 提供了一种简单的方式进行自动布局，通过这种方式可以不用设置一些复杂的约束，&lt;a id=&quot;more&quot;&gt;&lt;/a&gt; 而达到自动布局的效果。一个 stack view 定义了一行或者一列界面元素。stack view 通过以下这些属性去排版它的每个元素。&lt;/p&gt;
+    <content type="html">&lt;a id=&quot;more&quot;&gt;&lt;/a&gt; 
+&lt;p&gt;Stack view 提供了一种简单的方式进行自动布局，通过这种方式可以不用设置一些复杂的约束，而达到自动布局的效果。一个 stack view 定义了一行或者一列界面元素。stack view 通过以下这些属性去排版它的每个元素。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://developer.apple.com/documentation/uikit/uistackview/1616223-axis&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;axis&lt;/a&gt;:(&lt;a href=&quot;https://developer.apple.com/documentation/uikit/uistackview&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;UIStackView&lt;/a&gt; only) 定义 stack view 的排布方向，是垂直排布还是水平排布.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://developer.apple.com/documentation/appkit/nsstackview/1488950-orientation&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;orientation&lt;/a&gt;:(&lt;a href=&quot;https://developer.apple.com/documentation/appkit/nsstackview&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;NSStackView&lt;/a&gt; only) 定义 stack view 的排布方向，是垂直排布还是水平排布.&lt;/li&gt;
@@ -699,7 +706,8 @@
     
     <summary type="html">
     
-      &lt;p&gt;Stack view 提供了一种简单的方式进行自动布局，通过这种方式可以不用设置一些复杂的约束，
+      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt; 
+&lt;p&gt;Stack view 提供了一种简单的方式进行自动布局，通过这种方式可以不用设置一些复杂的约束，而达到自动布局的效果。一个 stack view 定义了一行或者一列界面元素。stack view 通过以下这些属性去排版它的每个元素。&lt;/
     
     </summary>
     
@@ -715,9 +723,10 @@
     <link href="http://yoursite.com/2018/04/07/iOS%20Auto%20Layout-%E7%90%86%E8%A7%A3%E8%87%AA%E5%8A%A8%E5%B8%83%E5%B1%80%EF%BC%88%E8%AF%91)/"/>
     <id>http://yoursite.com/2018/04/07/iOS Auto Layout-理解自动布局（译)/</id>
     <published>2018-04-07T07:03:40.000Z</published>
-    <updated>2018-06-03T08:23:41.242Z</updated>
+    <updated>2018-06-03T13:14:49.037Z</updated>
     
-    <content type="html">&lt;p&gt;Auto Layout 可以根据加在 view 上的约束条件，动态计算 view 在视图层级中的大小和位置。&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;例如，你可以给一个 button 和一个 image view 设置这样的约束条件：button 与 image view 保持水平居中，并且使 button 的顶部距离 image view 的底部始终保持 8-point 的距离。这样如果 image view 的大小或者位置发生改变，通过 Auto Layout 会重新计算 button 的大小与位置，更新 button 的布局。&lt;/p&gt;
+    <content type="html">&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;Auto Layout 可以根据加在 view 上的约束条件，动态计算 view 在视图层级中的大小和位置。例如，你可以给一个 button 和一个 image view 设置这样的约束条件：button 与 image view 保持水平居中，并且使 button 的顶部距离 image view 的底部始终保持 8-point 的距离。这样如果 image view 的大小或者位置发生改变，通过 Auto Layout 会重新计算 button 的大小与位置，更新 button 的布局。&lt;/p&gt;
 &lt;h3 id=&quot;外部变化&quot;&gt;&lt;a href=&quot;#外部变化&quot; class=&quot;headerlink&quot; title=&quot;外部变化&quot;&gt;&lt;/a&gt;外部变化&lt;/h3&gt;&lt;p&gt;父视图的大小或者形状发生改变时，会引起外部变化。这时你需要根据父视图的大小去更新界面布局，以达到最好的适配效果。以下一些操作会引起这种变化：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;用户调整 &lt;code&gt;window&lt;/code&gt; 大小 (OS X).&lt;/li&gt;
@@ -759,7 +768,8 @@
     
     <summary type="html">
     
-      &lt;p&gt;Auto Layout 可以根据加在 view 上的约束条件，动态计算 view 在视图层级中的大小和位置。
+      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;Auto Layout 可以根据加在 view 上的约束条件，动态计算 view 在视图层级中的大小和位置。例如，你可以给一个 button 和一个 image view 设置这样的约束条件：button 与 image view 保持水
     
     </summary>
     
@@ -775,9 +785,10 @@
     <link href="http://yoursite.com/2018/04/06/%E6%88%91%E6%89%80%E7%90%86%E8%A7%A3%E7%9A%84%20iOS%20%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B/"/>
     <id>http://yoursite.com/2018/04/06/我所理解的 iOS 并发编程/</id>
     <published>2018-04-06T15:04:23.000Z</published>
-    <updated>2018-05-13T13:39:18.351Z</updated>
+    <updated>2018-06-03T13:13:21.726Z</updated>
     
-    <content type="html">&lt;p&gt;无论在哪个平台，并发编程都是一个让人头疼的问题。庆幸的是，相对于服务端，客户端的并发编程简单了许&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;多。这篇文章主要讲述一些基于 iOS 平台的一些并发编程相关东西，我写博客习惯于先介绍原理，后介绍用法，毕竟对于 API 的使用，官网有更好的文档。&lt;/p&gt;
+    <content type="html">&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;无论在哪个平台，并发编程都是一个让人头疼的问题。庆幸的是，相对于服务端，客户端的并发编程简单了许多。这篇文章主要讲述一些基于 iOS 平台的一些并发编程相关东西，我写博客习惯于先介绍原理，后介绍用法，毕竟对于 API 的使用，官网有更好的文档。&lt;/p&gt;
 &lt;h3 id=&quot;一些原理性的东西&quot;&gt;&lt;a href=&quot;#一些原理性的东西&quot; class=&quot;headerlink&quot; title=&quot;一些原理性的东西&quot;&gt;&lt;/a&gt;一些原理性的东西&lt;/h3&gt;&lt;p&gt;为了便于理解，这里先解释一些相关概念。如果你对这些概念已经很熟悉，可以直接跳过。&lt;/p&gt;
 &lt;h4 id=&quot;1-进程&quot;&gt;&lt;a href=&quot;#1-进程&quot; class=&quot;headerlink&quot; title=&quot;1.进程&quot;&gt;&lt;/a&gt;1.进程&lt;/h4&gt;&lt;p&gt;从操作系统定义上来说，进程就是系统进行资源分配和调度的基本单位，系统创建一个线程后，会为其分配对应的资源。在 iOS 系统中，进程可以理解为就是一个 App。iOS 并没有提供可以创建进程的 API，即使你调用 &lt;code&gt;fork()&lt;/code&gt; 函数，也不能创建新的进程。所以，&lt;strong&gt;本文所说的并发编程，都是针对线程来说的&lt;/strong&gt;。&lt;/p&gt;
 &lt;h4 id=&quot;2-线程&quot;&gt;&lt;a href=&quot;#2-线程&quot; class=&quot;headerlink&quot; title=&quot;2.线程&quot;&gt;&lt;/a&gt;2.线程&lt;/h4&gt;&lt;p&gt;线程是程序执行流的最小单元。一般情况下，一个进程会有多个线程，或者至少有一个线程。一个线程有创建、就绪、运行、阻塞和死亡五种状态。线程可以共享进程的资源，所有的问题也是因为共享资源引起的。&lt;/p&gt;
@@ -1219,7 +1230,8 @@
     
     <summary type="html">
     
-      &lt;p&gt;无论在哪个平台，并发编程都是一个让人头疼的问题。庆幸的是，相对于服务端，客户端的并发编程简单了许
+      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;无论在哪个平台，并发编程都是一个让人头疼的问题。庆幸的是，相对于服务端，客户端的并发编程简单了许多。这篇文章主要讲述一些基于 iOS 平台的一些并发编程相关东西，我写博客习惯于先介绍原理，后介绍用法，毕竟对于 API 的使用，官网有更好的
     
     </summary>
     
@@ -1235,9 +1247,10 @@
     <link href="http://yoursite.com/2018/03/25/iOS%20%E4%B8%AD%E7%9A%84%E4%BA%8B%E4%BB%B6%E5%93%8D%E5%BA%94%E4%B8%8E%E5%A4%84%E7%90%86/"/>
     <id>http://yoursite.com/2018/03/25/iOS 中的事件响应与处理/</id>
     <published>2018-03-25T13:00:45.000Z</published>
-    <updated>2018-05-13T13:32:44.421Z</updated>
+    <updated>2018-06-03T13:14:18.611Z</updated>
     
-    <content type="html">&lt;p&gt;在使用 iPhone 过程中，会产生很多交互事件，例如点击、长按、摇晃、3D Touch 等。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;br&gt;这些事件都需要 iOS 系统去响应并作出处理。这篇文章主要讲解一下系统如何去响应并处理这些事件。&lt;/p&gt;
+    <content type="html">&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;在使用 iPhone 过程中，会产生很多交互事件，例如点击、长按、摇晃、3D Touch 等。这些事件都需要 iOS 系统去响应并作出处理。这篇文章主要讲解一下系统如何去响应并处理这些事件。&lt;/p&gt;
 &lt;h3 id=&quot;事件种类&quot;&gt;&lt;a href=&quot;#事件种类&quot; class=&quot;headerlink&quot; title=&quot;事件种类&quot;&gt;&lt;/a&gt;事件种类&lt;/h3&gt;&lt;p&gt;为满足用户需求，iOS 提供了多种事件，这里先说一下具体有哪些事件，现在脑中有一个清晰的轮廓。iOS 中的事件大致可以分为如下几类：&lt;/p&gt;
 &lt;h4 id=&quot;1-触摸事件&quot;&gt;&lt;a href=&quot;#1-触摸事件&quot; class=&quot;headerlink&quot; title=&quot;1.触摸事件&quot;&gt;&lt;/a&gt;1.触摸事件&lt;/h4&gt;&lt;p&gt;触摸事件主要来源于人体触摸和通过 Apple Pencil (iPad) 触摸。触摸事件也分为以下几类：&lt;/p&gt;
 &lt;ul&gt;
@@ -1506,7 +1519,9 @@
     
     <summary type="html">
     
-      &lt;p&gt;在使用 iPhone 过程中，会产生很多交互事件，例如点击、长按、摇晃、3D Touch 等。&lt;br&gt;
+      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;在使用 iPhone 过程中，会产生很多交互事件，例如点击、长按、摇晃、3D Touch 等。这些事件都需要 iOS 系统去响应并作出处理。这篇文章主要讲解一下系统如何去响应并处理这些事件。&lt;/p&gt;
+&lt;h3 id=&quot;事件种类&quot;&gt;&lt;a hr
     
     </summary>
     
@@ -1522,9 +1537,11 @@
     <link href="http://yoursite.com/2018/03/10/%E5%BD%93%E4%BD%A0%E6%8C%89%E4%B8%8B%20%E2%8C%98%20+%20R%20%E5%90%8E%E5%8F%91%E7%94%9F%E7%9A%84%E4%BA%8B%E6%83%85/"/>
     <id>http://yoursite.com/2018/03/10/当你按下 ⌘ + R 后发生的事情/</id>
     <published>2018-03-10T14:03:50.000Z</published>
-    <updated>2018-05-13T13:23:37.660Z</updated>
+    <updated>2018-06-03T13:13:03.934Z</updated>
     
-    <content type="html">&lt;p&gt;作为一名 coder，每天的工作不是解 bug，就是写 bug。有些东西，了解了并不一定有利于写 bug，但是有利于解 bug。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;br&gt;对于一个工程，当你按下 &lt;code&gt;⌘ + R&lt;/code&gt; 到主界面显示出来，你可曾想过这一过程发生了哪些事情？这些原理性的东西，对我们 coding 并没有直接帮助，了解与否都可以 coding。但是一个 coder 的工作不只是 coding，还有 debug。了解这些东西，对我们排查一些问题很有帮助。&lt;/p&gt;
+    <content type="html">&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;作为一名 coder，每天的工作不是解 bug，就是写 bug。有些东西，了解了并不一定有利于写 bug，但是有利于解 bug。&lt;/p&gt;
+&lt;p&gt;对于一个工程，当你按下 &lt;code&gt;⌘ + R&lt;/code&gt; 到主界面显示出来，你可曾想过这一过程发生了哪些事情？这些原理性的东西，对我们 coding 并没有直接帮助，了解与否都可以 coding。但是一个 coder 的工作不只是 coding，还有 debug。了解这些东西，对我们排查一些问题很有帮助。&lt;/p&gt;
 &lt;p&gt;按照阶段划分，这一过程大致可以划为三个阶段：&lt;strong&gt;编译阶段&lt;/strong&gt;、&lt;strong&gt;APP 启动阶段&lt;/strong&gt;、&lt;strong&gt;图层渲染阶段&lt;/strong&gt;。下面针对这三个过程进行详细描述。&lt;/p&gt;
 &lt;h3 id=&quot;编译阶段&quot;&gt;&lt;a href=&quot;#编译阶段&quot; class=&quot;headerlink&quot; title=&quot;编译阶段&quot;&gt;&lt;/a&gt;编译阶段&lt;/h3&gt;&lt;p&gt;学过编译原理的同学都应该知道，编译主要分为四个过程：预处理、编译、汇编、链接。下面大致也是按照这个路子来。iOS 编译过程，使用的 clang 做前端，LLVM 作为后端进行完成的。使用 clang 处理前几个阶段，LLVM 处理后面几个阶段。&lt;/p&gt;
 &lt;h4 id=&quot;1-预处理&quot;&gt;&lt;a href=&quot;#1-预处理&quot; class=&quot;headerlink&quot; title=&quot;1.预处理&quot;&gt;&lt;/a&gt;1.预处理&lt;/h4&gt;&lt;p&gt;又称为预编译，主要做一些文本替换工作。处理 &lt;code&gt;#&lt;/code&gt; 开头的指令，例如：&lt;/p&gt;
@@ -1920,7 +1937,9 @@
     
     <summary type="html">
     
-      &lt;p&gt;作为一名 coder，每天的工作不是解 bug，就是写 bug。有些东西，了解了并不一定有利于写 bug，但是有利于解 bug。&lt;br&gt;
+      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;作为一名 coder，每天的工作不是解 bug，就是写 bug。有些东西，了解了并不一定有利于写 bug，但是有利于解 bug。&lt;/p&gt;
+&lt;p&gt;对于一个工程，当你按下 &lt;code&gt;⌘ + R&lt;/code&gt; 到主界面显示出来，你可曾想过这一
     
     </summary>
     
@@ -1936,9 +1955,10 @@
     <link href="http://yoursite.com/2018/02/28/%E6%88%91%E6%89%80%E7%90%86%E8%A7%A3%E7%9A%84Block/"/>
     <id>http://yoursite.com/2018/02/28/我所理解的Block/</id>
     <published>2018-02-28T12:10:27.000Z</published>
-    <updated>2018-05-13T13:16:33.166Z</updated>
+    <updated>2018-06-03T13:13:29.074Z</updated>
     
-    <content type="html">&lt;p&gt;关于 block 的文章，网上已经有很多了。我这里只是将这个知识点再梳理一下，做一下记录。毕竟年纪大了，容易忘事。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+    <content type="html">&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;关于 block 的文章，网上已经有很多了。我这里只是将这个知识点再梳理一下，做一下记录。毕竟年纪大了，容易忘事。&lt;/p&gt;
 &lt;h4 id=&quot;抛砖引玉&quot;&gt;&lt;a href=&quot;#抛砖引玉&quot; class=&quot;headerlink&quot; title=&quot;抛砖引玉&quot;&gt;&lt;/a&gt;抛砖引玉&lt;/h4&gt;&lt;p&gt;围绕 block 所产生的问题，太多太多。这里我将这些问题罗列出来，如果你对某些问题感到懵逼，可以在下文中找到答案。找不到，私信我。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;为什么要用 block？毕竟它的语法难记，还容易产生内存泄漏。&lt;/li&gt;
@@ -2078,7 +2098,9 @@
     
     <summary type="html">
     
-      &lt;p&gt;关于 block 的文章，网上已经有很多了。我这里只是将这个知识点再梳理一下，做一下记录。毕竟年纪大了，容易忘事。&lt;br&gt;
+      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;关于 block 的文章，网上已经有很多了。我这里只是将这个知识点再梳理一下，做一下记录。毕竟年纪大了，容易忘事。&lt;/p&gt;
+&lt;h4 id=&quot;抛砖引玉&quot;&gt;&lt;a href=&quot;#抛砖引玉&quot; class=&quot;headerlink&quot; title=&quot;抛
     
     </summary>
     
@@ -2094,9 +2116,11 @@
     <link href="http://yoursite.com/2018/02/16/%E6%88%91%E6%89%80%E7%90%86%E8%A7%A3%E7%9A%84CocoaPods/"/>
     <id>http://yoursite.com/2018/02/16/我所理解的CocoaPods/</id>
     <published>2018-02-16T09:09:23.000Z</published>
-    <updated>2018-05-13T13:12:26.951Z</updated>
+    <updated>2018-06-03T13:13:36.986Z</updated>
     
-    <content type="html">&lt;p&gt;很久之前读了一遍 &lt;a href=&quot;https://guides.cocoapods.org/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Cocoa Pods 官方文档&lt;/a&gt;，对 Cocoa Pods 有了一个简单的了解。时隔多日，全忘了。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;br&gt;所以再回顾一下，顺便写一篇总结。文章分为&lt;strong&gt;原理&lt;/strong&gt;和&lt;strong&gt;使用&lt;/strong&gt;两部分，比较长，可以根据自己的需求选择性阅读。&lt;/p&gt;
+    <content type="html">&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;很久之前读了一遍 &lt;a href=&quot;https://guides.cocoapods.org/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Cocoa Pods 官方文档&lt;/a&gt;，对 Cocoa Pods 有了一个简单的了解。时隔多日，全忘了。&lt;/p&gt;
+&lt;p&gt;所以再回顾一下，顺便写一篇总结。文章分为&lt;strong&gt;原理&lt;/strong&gt;和&lt;strong&gt;使用&lt;/strong&gt;两部分，比较长，可以根据自己的需求选择性阅读。&lt;/p&gt;
 &lt;h3 id=&quot;概述&quot;&gt;&lt;a href=&quot;#概述&quot; class=&quot;headerlink&quot; title=&quot;概述&quot;&gt;&lt;/a&gt;概述&lt;/h3&gt;&lt;p&gt;CocoaPods 是开发 OS X 和 iOS 应用程序的一个第三方库的依赖管理工具，使用这个工具可以简化对组件依、更新的过程。新添加一些第三方组件可以直接修改 podfile 然后进行 &lt;code&gt;pod install&lt;/code&gt;；更新已有第三方组件，可以修改 podfile 然后进行 &lt;code&gt;pod update&lt;/code&gt;；自己开发的组件也可以上传到 CocoaPods 或者私有仓库，供其他人使用。&lt;/p&gt;
 &lt;p&gt;CocoaPods 是用 ruby 写的，由若干个 gems 组成。也就是说，iOS project 使用 CocoaPods 来进行组件管理，CocoaPods 本身也是一个 project，它使用 gem 进行组件管理。&lt;/p&gt;
 &lt;p&gt;开始写这篇文章的时候，我想先写使用，再写原理。因为我担心很多人感觉原理晦涩难懂，就放弃看后面了。但构思的时候发现，明白了原理之后，对一些命令的使用会有更深刻的了解。所以还是决定将原理放在前面讲。&lt;/p&gt;
@@ -2328,7 +2352,8 @@ Podfile
     
     <summary type="html">
     
-      &lt;p&gt;很久之前读了一遍 &lt;a href=&quot;https://guides.cocoapods.org/&quot;&gt;Cocoa Pods 官方文档&lt;/a&gt;，对 Cocoa Pods 有了一个简单的了解。时隔多日，全忘了。&lt;br&gt;
+      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;很久之前读了一遍 &lt;a href=&quot;https://guides.cocoapods.org/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Cocoa Pods 官方文档&lt;/a&gt;，对 Cocoa Pods 有了一个简单
     
     </summary>
     
@@ -2344,9 +2369,10 @@ Podfile
     <link href="http://yoursite.com/2018/02/13/2017%20%E4%B8%AA%E4%BA%BA%E6%80%BB%E7%BB%93/"/>
     <id>http://yoursite.com/2018/02/13/2017 个人总结/</id>
     <published>2018-02-13T02:05:06.000Z</published>
-    <updated>2018-05-13T12:45:29.892Z</updated>
+    <updated>2018-06-03T13:12:43.285Z</updated>
     
-    <content type="html">&lt;p&gt;又到了写个人总结的日子。每到年末的时候，静下来回顾这一年，写写总结，是一件很有意思的事。鉴于上半年&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;br&gt;过得乱七八糟，一切从下半年开始说起吧。&lt;/p&gt;
+    <content type="html">&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;又到了写个人总结的日子。每到年末的时候，静下来回顾这一年，写写总结，是一件很有意思的事。鉴于上半年&lt;br&gt;过得乱七八糟，一切从下半年开始说起吧。&lt;/p&gt;
 &lt;p&gt;六月底，和少帮主自驾游回了一次学校。去之前，少帮主叮嘱我最好在京东买两天保险。自驾游意在散心，没有走高速，全程慢慢悠悠的开。从早上十一点出发，中间一度绕到了山里，路很宽，车很少，风景很不错，具体画面可以参考 《平凡之路》 MV，也就是在这种路上，少帮主才放心让我我开。到了学校已经八点多，停下来在学校门口 “大骨拉面” 吃了点东西，吃完九点多，打算去学校逛逛。&lt;/p&gt;
 &lt;p&gt;时隔一年回到这里，有种说不出的感觉。因为是毕业季，有些人在拉着箱子往外走，有些人刚刚聚餐回来，去年我们毕业的时候也是如此。进了学校之后，看到三教实验室还在亮着灯，就跑上去看了看，看看自己当年 “奋斗” 的地方。因为 ID 卡已经注销，图书馆也进不去了，所以下来之后就直接穿过小树林，绕过 “学友”，奔着四舍楼下去了，少帮主当然是奔着她的二舍去了。回学校之前，是没告诉任何人的，然后在四舍楼下碰到了邹导…就好像是晚上自习完回宿舍，到了楼下发现邹导在值班一样，这偶遇也没谁了。因为第二天是信院终期答辩，导师没有时间，所以晚上十点多被导师叫去他家聊天，师命不可违。和导师边走边聊，说不完的话，导师从燕大西苑一路把我送到燕大小东门，也就是燕大宾馆那个门。第二天中午，又去了三食堂二楼吃了一顿我梦寐以求的香锅，没吃完我还打包带了回去。之后又在海边转了一圈，就回去了。回去走的高速，几个小时就到北京了。当然是少帮主开的。&lt;/p&gt;
 &lt;p&gt;七月至十月初，是结婚的高峰期。这几个月，我参加了很多场婚礼，也错过了很多场婚礼。吃过的狗粮可以养活四只哈士奇，随过的份子可以买一部顶配 iPhone X。其中十一假期，参加了志爽的婚礼。也因为这场婚礼，让我们一群班长时隔一年又聚在了一起。没有什么比一群逗比坐在一起扯淡更开心了。这几个月，除了上班之外，唯一的户外活动就是参加婚礼了。总结来说就是：参加不完的婚礼，吃不完的狗粮，随不完的份子。&lt;/p&gt;
@@ -2366,7 +2392,9 @@ Podfile
     
     <summary type="html">
     
-      &lt;p&gt;又到了写个人总结的日子。每到年末的时候，静下来回顾这一年，写写总结，是一件很有意思的事。鉴于上半年&lt;br&gt;
+      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;又到了写个人总结的日子。每到年末的时候，静下来回顾这一年，写写总结，是一件很有意思的事。鉴于上半年&lt;br&gt;过得乱七八糟，一切从下半年开始说起吧。&lt;/p&gt;
+&lt;p&gt;六月底，和少帮主自驾游回了一次学校。去之前，少帮主叮嘱我最好在京东买两天保险。
     
     </summary>
     
@@ -2382,9 +2410,10 @@ Podfile
     <link href="http://yoursite.com/2018/01/10/%E6%9F%A5%E8%AF%A2%E8%A7%84%E5%88%92%E5%99%A8/"/>
     <id>http://yoursite.com/2018/01/10/查询规划器/</id>
     <published>2018-01-10T10:04:49.000Z</published>
-    <updated>2018-05-13T12:32:38.313Z</updated>
+    <updated>2018-06-03T13:12:53.834Z</updated>
     
-    <content type="html">&lt;p&gt;这是一篇 &lt;a href=&quot;https://www.sqlite.org/queryplanner.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Query Planning&lt;/a&gt; 的译文。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+    <content type="html">&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;这是一篇 &lt;a href=&quot;https://www.sqlite.org/queryplanner.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Query Planning&lt;/a&gt; 的译文。&lt;/p&gt;
 &lt;h3 id=&quot;目录&quot;&gt;&lt;a href=&quot;#目录&quot; class=&quot;headerlink&quot; title=&quot;目录&quot;&gt;&lt;/a&gt;目录&lt;/h3&gt;&lt;ol&gt;
 &lt;li&gt;&lt;p&gt;查询&lt;br&gt; 1.1 无索引表查询&lt;br&gt; 1.2 使用 rowid 查询&lt;br&gt; 1.3 使用索引查询&lt;br&gt; 1.4 多行内容查找&lt;br&gt; 1.5 使用 AND 链接多个 WHERE 条件查询&lt;br&gt; 1.6 多列查询&lt;br&gt; 1.7 覆盖索引查询&lt;br&gt; 1.8 使用 OR 链接多个 WHERE 条件查询&lt;/p&gt;
 &lt;/li&gt;
@@ -2566,7 +2595,9 @@ Podfile
     
     <summary type="html">
     
-      &lt;p&gt;这是一篇 &lt;a href=&quot;https://www.sqlite.org/queryplanner.html&quot;&gt;Query Planning&lt;/a&gt; 的译文。&lt;br&gt;
+      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;这是一篇 &lt;a href=&quot;https://www.sqlite.org/queryplanner.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Query Planning&lt;/a&gt; 的译文。&lt;/p&gt;
+&lt;h3 
     
     </summary>
     
@@ -2582,9 +2613,10 @@ Podfile
     <link href="http://yoursite.com/2017/10/04/iOS%20%E4%B8%AD%E7%9A%84%E5%8D%95%E5%85%83%E6%B5%8B%E8%AF%95/"/>
     <id>http://yoursite.com/2017/10/04/iOS 中的单元测试/</id>
     <published>2017-10-04T13:05:30.000Z</published>
-    <updated>2018-05-13T14:36:56.033Z</updated>
+    <updated>2018-06-03T13:14:07.359Z</updated>
     
-    <content type="html">&lt;p&gt;最近团队内部为了保证代码质量，要求单元测试覆盖率 80%+。在编写单元测试过程中，等到了一些收获，为此&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;总结一下。&lt;/p&gt;
+    <content type="html">&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;最近团队内部为了保证代码质量，要求单元测试覆盖率 80%+。在编写单元测试过程中，等到了一些收获，为此总结一下。&lt;/p&gt;
 &lt;h4 id=&quot;概述&quot;&gt;&lt;a href=&quot;#概述&quot; class=&quot;headerlink&quot; title=&quot;概述&quot;&gt;&lt;/a&gt;概述&lt;/h4&gt;&lt;p&gt;Unit test 是保证代码质量的重要模块，为模块编写 Unit test 可以减少开发中的 bug。同时在重构代码时，如果有一定粒度的 Unit test 覆盖，可以降低重构风险，这些大家都深有体会。&lt;/p&gt;
 &lt;h5 id=&quot;1-核心观点&quot;&gt;&lt;a href=&quot;#1-核心观点&quot; class=&quot;headerlink&quot; title=&quot;1.核心观点&quot;&gt;&lt;/a&gt;1.核心观点&lt;/h5&gt;&lt;ul&gt;
 &lt;li&gt;开发必须重视 unit test，不仅是点缀和补充，要和功能开发放到同样主要地位，加入工作量评估.&lt;/li&gt;
@@ -2708,7 +2740,9 @@ Podfile
     
     <summary type="html">
     
-      &lt;p&gt;最近团队内部为了保证代码质量，要求单元测试覆盖率 80%+。在编写单元测试过程中，等到了一些收获，为此
+      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;最近团队内部为了保证代码质量，要求单元测试覆盖率 80%+。在编写单元测试过程中，等到了一些收获，为此总结一下。&lt;/p&gt;
+&lt;h4 id=&quot;概述&quot;&gt;&lt;a href=&quot;#概述&quot; class=&quot;headerlink&quot; title=&quot;概述&quot;&gt;&lt;/
     
     </summary>
     
@@ -2724,9 +2758,10 @@ Podfile
     <link href="http://yoursite.com/2017/02/26/Clean-code/"/>
     <id>http://yoursite.com/2017/02/26/Clean-code/</id>
     <published>2017-02-26T11:41:39.000Z</published>
-    <updated>2018-05-13T12:24:01.510Z</updated>
+    <updated>2018-06-03T13:13:51.757Z</updated>
     
-    <content type="html">&lt;p&gt;代码的整洁与否是一个程序员的个人卫生问题。一个程序员穿着可以稍邋遢一些，但是代码要写的干净、利落。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;br&gt;如果你想成为一个更好的程序员，除了要学习语法、设计模式之外，还要学习如何写出整洁有效的代码，这本书会教你如何写出这样的代码。书中代码全部为 Java 语言，如果没有接触过 Java 语言，读起来可能会有点困难。&lt;/p&gt;
+    <content type="html">&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;代码的整洁与否是一个程序员的个人卫生问题。一个程序员穿着可以稍邋遢一些，但是代码要写的干净、利落。&lt;br&gt;如果你想成为一个更好的程序员，除了要学习语法、设计模式之外，还要学习如何写出整洁有效的代码，这本书会教你如何写出这样的代码。书中代码全部为 Java 语言，如果没有接触过 Java 语言，读起来可能会有点困难。&lt;/p&gt;
 &lt;p&gt;这本书大致可以分为三个部分：第一部分占据了大约一半的章节，主要介绍编写整洁代码的原则、模式和实践，读起来比较容易理解。如果你读完这部分感觉已经掌握了如何写好整洁代码，那么你要失望了，其实你只学到一点皮毛。要知道，&lt;strong&gt;容易学会的东西一般价值都不高&lt;/strong&gt;。当然如果你是天才，学什么都快，就当我没说。&lt;/p&gt;
 &lt;p&gt;第二部分主要是对几个复杂性不断增加的案例的研究，这是最有价值的一部分，也是最难读的一部分。在这部分你会读大量的 Java 代码，然后逐渐掌握如何写出整洁有效的代码。&lt;/p&gt;
 &lt;p&gt;第三部分是从研究案例得到的一些启示与灵感。如果你仔细读了第二部分，这部分将是对你的回报，否则这部分对你来说可能所值无几。&lt;/p&gt;
@@ -2832,7 +2867,8 @@ Podfile
     
     <summary type="html">
     
-      &lt;p&gt;代码的整洁与否是一个程序员的个人卫生问题。一个程序员穿着可以稍邋遢一些，但是代码要写的干净、利落。&lt;br&gt;
+      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;代码的整洁与否是一个程序员的个人卫生问题。一个程序员穿着可以稍邋遢一些，但是代码要写的干净、利落。&lt;br&gt;如果你想成为一个更好的程序员，除了要学习语法、设计模式之外，还要学习如何写出整洁有效的代码，这本书会教你如何写出这样的代码。书中代码
     
     </summary>
     
@@ -2846,9 +2882,10 @@ Podfile
     <link href="http://yoursite.com/2017/02/26/Keywords-in-Objective-C/"/>
     <id>http://yoursite.com/2017/02/26/Keywords-in-Objective-C/</id>
     <published>2017-02-26T10:04:49.000Z</published>
-    <updated>2018-05-13T12:29:17.248Z</updated>
+    <updated>2018-06-03T13:15:44.713Z</updated>
     
-    <content type="html">&lt;p&gt;在 OC 中，有很多常用的关键字。如何正确使用这些关键字，是学习一本语言的基础。通常面试官只需要问几&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;br&gt;个关键字相关的问题，就能看出面试者的基础如何。例如 &lt;code&gt;#include、#import、@class的区别&lt;/code&gt;，什么时候用 &lt;code&gt;const NSString *&lt;/code&gt; 什么时候用 &lt;code&gt;NSString * const&lt;/code&gt;，&lt;code&gt;define&lt;/code&gt; 和 &lt;code&gt;static&lt;/code&gt; 的正确使用等。不仅要知道怎么用，还要知道为什么这样用，不能只是“我看别人这么写”。&lt;/p&gt;
+    <content type="html">&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;在 OC 中，有很多常用的关键字。如何正确使用这些关键字，是学习一本语言的基础。通常面试官只需要问几&lt;br&gt;个关键字相关的问题，就能看出面试者的基础如何。例如 &lt;code&gt;#include、#import、@class的区别&lt;/code&gt;，什么时候用 &lt;code&gt;const NSString *&lt;/code&gt; 什么时候用 &lt;code&gt;NSString * const&lt;/code&gt;，&lt;code&gt;define&lt;/code&gt; 和 &lt;code&gt;static&lt;/code&gt; 的正确使用等。不仅要知道怎么用，还要知道为什么这样用，不能只是“我看别人这么写”。&lt;/p&gt;
 &lt;p&gt;这篇文章将介绍一些关键字的使用及原理。&lt;/p&gt;
 &lt;h3 id=&quot;static-amp-const-amp-extern&quot;&gt;&lt;a href=&quot;#static-amp-const-amp-extern&quot; class=&quot;headerlink&quot; title=&quot;static &amp;amp; const &amp;amp; extern&quot;&gt;&lt;/a&gt;static &amp;amp; const &amp;amp; extern&lt;/h3&gt;&lt;p&gt;将一些重复使用的字符串定义为&lt;strong&gt;字符串常量&lt;/strong&gt;是一种良好的习惯，这样写起来代码便于维护。当然有时也会定义成&lt;strong&gt;宏&lt;/strong&gt;，后面会解释两者区别。在定义常量时，通常会用 &lt;code&gt;static&lt;/code&gt; 和 &lt;code&gt;extern&lt;/code&gt; 来定义常量的&lt;strong&gt;作用域&lt;/strong&gt;，用 &lt;code&gt;const&lt;/code&gt; 来定义常量的&lt;strong&gt;可变性&lt;/strong&gt;。&lt;/p&gt;
 &lt;h4 id=&quot;1-static&quot;&gt;&lt;a href=&quot;#1-static&quot; class=&quot;headerlink&quot; title=&quot;1.static&quot;&gt;&lt;/a&gt;1.static&lt;/h4&gt;&lt;p&gt;&lt;code&gt;static&lt;/code&gt; 关键字，主要定义变量的&lt;strong&gt;作用域&lt;/strong&gt;和&lt;strong&gt;生命周期&lt;/strong&gt;。&lt;/p&gt;
@@ -2935,7 +2972,8 @@ Podfile
     
     <summary type="html">
     
-      &lt;p&gt;在 OC 中，有很多常用的关键字。如何正确使用这些关键字，是学习一本语言的基础。通常面试官只需要问几&lt;br&gt;
+      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;在 OC 中，有很多常用的关键字。如何正确使用这些关键字，是学习一本语言的基础。通常面试官只需要问几&lt;br&gt;个关键字相关的问题，就能看出面试者的基础如何。例如 &lt;code&gt;#include、#import、@class的区别&lt;/code&gt;
     
     </summary>
     
@@ -2951,9 +2989,10 @@ Podfile
     <link href="http://yoursite.com/2017/01/25/annual-report-2016/"/>
     <id>http://yoursite.com/2017/01/25/annual-report-2016/</id>
     <published>2017-01-25T03:55:37.000Z</published>
-    <updated>2018-05-13T12:23:51.233Z</updated>
+    <updated>2018-06-03T13:13:45.194Z</updated>
     
-    <content type="html">&lt;p&gt;&lt;strong&gt;其&lt;/strong&gt;实，真的没有什么好写的。七月份的毕业总结已经把上半年总结在内，下半年又过的不痛不痒。如果生&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;br&gt;活的满分是 10 分的话，这半年的生活我给 6 分，及格分（画外音：这个X装的我给满分）。但是年关将至，不矫情一下似乎不是我的风格。不是这个性格，也不会现在蹲在北京南站的星巴克里写总结了。还好不是写代码。&lt;/p&gt;
+    <content type="html">&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;&lt;strong&gt;其&lt;/strong&gt;实，真的没有什么好写的。七月份的毕业总结已经把上半年总结在内，下半年又过的不痛不痒。如果生&lt;br&gt;活的满分是 10 分的话，这半年的生活我给 6 分，及格分（画外音：这个X装的我给满分）。但是年关将至，不矫情一下似乎不是我的风格。不是这个性格，也不会现在蹲在北京南站的星巴克里写总结了。还好不是写代码。&lt;/p&gt;
 &lt;p&gt;去年春节，在家里仅仅呆了 7 天，大年初四就回到了学校。在燕大小区租的房子里，每天恶补面试相关知识。当时学校外面的饭店还没有开门，初五的时候，房东老奶奶给我端过一碗饺子来，感动的不行。这是我第一次大过年的，在异地他乡陌生人家里吃着饺子。后来老奶奶看我没地方吃饭，让我跟着他们吃，直到外卖饭店开门。当然后来我也给人家饭钱了，毕竟都挺不容易的。后来就是面试，面试，面试…折腾了近半年，临近毕业之际，找到了一份差强人意的工作。毕业前最后一段时间，本是旅行的日子，也在毕设与考驾照中等乱七八糟的事情中度过，上半年也就这样过去了。有关毕业的一些感慨，详情请看&lt;a href=&quot;http://luoanhao.github.io/2016/07/10/Graduation/#more&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;我毕业了&lt;/a&gt;。&lt;/p&gt;
 &lt;p&gt;七月二号来到北京，四号入职，然后就开始了上班族生涯。起初一个月感觉还不错，毕竟生活场景刚刚转换过来，对什么都充满新鲜感。起初我们租的房子里住了四个人，比较热闹。大家每天上下班，周六日就窝在家里看电视剧、打游戏；偶尔去健身、打球、养花，过得颓废而又自在。&lt;/p&gt;
 &lt;p&gt;毕业之后，班级群异常的活跃，一会儿不看就 ‘99+’，不得不把它屏蔽了。以前在学校，大家学累了、玩累了就去别的宿舍转转，闲扯几句。只不过现在宿舍没有了，大家无聊了就去群里扯扯，装装X。因为我比较能装，所以有些都围绕我起了昵称。每天早上群里会发两个红包，大的运气王第二天和我接着发，小的运气王去整理歌单，为大家百无聊赖的生活增添了点乐趣。就这样开始了“混工资”的生活，一混就是几个月。&lt;/p&gt;
@@ -2965,7 +3004,8 @@ Podfile
     
     <summary type="html">
     
-      &lt;p&gt;&lt;strong&gt;其&lt;/strong&gt;实，真的没有什么好写的。七月份的毕业总结已经把上半年总结在内，下半年又过的不痛不痒。如果生&lt;br&gt;
+      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;&lt;strong&gt;其&lt;/strong&gt;实，真的没有什么好写的。七月份的毕业总结已经把上半年总结在内，下半年又过的不痛不痒。如果生&lt;br&gt;活的满分是 10 分的话，这半年的生活我给 6 分，及格分（画外音：这个X装的我给满分）。但是年关将至，
     
     </summary>
     
@@ -2981,9 +3021,10 @@ Podfile
     <link href="http://yoursite.com/2016/09/08/Reduce-crash/"/>
     <id>http://yoursite.com/2016/09/08/Reduce-crash/</id>
     <published>2016-09-08T10:55:57.000Z</published>
-    <updated>2018-05-13T12:27:07.479Z</updated>
+    <updated>2018-06-03T13:16:19.796Z</updated>
     
-    <content type="html">&lt;p&gt;&lt;strong&gt;对&lt;/strong&gt;一些代码进行容错处理，如果处理的好，会减少很多 crash。尤其对于像我这样的新手，稍不注意就会&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;br&gt;写出几十个 bug。以下是针对刚入职这段时间所做项目的一个总结，同时提醒自己不要再犯同样的错误。&lt;/p&gt;
+    <content type="html">&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;&lt;strong&gt;对&lt;/strong&gt;一些代码进行容错处理，如果处理的好，会减少很多 crash。尤其对于像我这样的新手，稍不注意就会&lt;br&gt;写出几十个 bug。以下是针对刚入职这段时间所做项目的一个总结，同时提醒自己不要再犯同样的错误。&lt;/p&gt;
 &lt;p&gt;美好的一天，从没有 bug 开始~&lt;/p&gt;
 &lt;hr&gt;
 &lt;h4 id=&quot;数据类型&quot;&gt;&lt;a href=&quot;#数据类型&quot; class=&quot;headerlink&quot; title=&quot;数据类型&quot;&gt;&lt;/a&gt;数据类型&lt;/h4&gt;&lt;p&gt;新手(像我这样)在使用一些常用的数据类型时，例如 &lt;code&gt;NSArray&lt;/code&gt; 、&lt;code&gt;NSDictionary&lt;/code&gt; 、&lt;code&gt;NSNumber&lt;/code&gt; 、&lt;code&gt;NSString&lt;/code&gt;等，经常会遇到一些崩溃问题。如果平时写程序首先进行容错判断，会减少很多崩溃问题。下面列举一些新手需要注意的情况。&lt;/p&gt;
@@ -3099,7 +3140,8 @@ Podfile
     
     <summary type="html">
     
-      &lt;p&gt;&lt;strong&gt;对&lt;/strong&gt;一些代码进行容错处理，如果处理的好，会减少很多 crash。尤其对于像我这样的新手，稍不注意就会&lt;br&gt;
+      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;&lt;strong&gt;对&lt;/strong&gt;一些代码进行容错处理，如果处理的好，会减少很多 crash。尤其对于像我这样的新手，稍不注意就会&lt;br&gt;写出几十个 bug。以下是针对刚入职这段时间所做项目的一个总结，同时提醒自己不要再犯同样的错误。&lt;
     
     </summary>
     
@@ -3117,9 +3159,10 @@ Podfile
     <link href="http://yoursite.com/2016/07/10/Graduation/"/>
     <id>http://yoursite.com/2016/07/10/Graduation/</id>
     <published>2016-07-10T14:50:52.000Z</published>
-    <updated>2018-05-13T12:24:11.023Z</updated>
+    <updated>2018-06-03T13:13:58.365Z</updated>
     
-    <content type="html">&lt;p&gt;&lt;strong&gt;现在&lt;/strong&gt;写毕业感言，或许有点晚了吧。6月29号毕业典礼结束后，也就宣布我们正式毕业了，不只是大学毕&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;br&gt;业，而是我的学生生涯毕业。按照我矫情的性格，对于这种具有重大纪念意义的时刻，必然会写一篇文章来抒发一下感慨。但是由于毕业时候各种事情，没来的及，一直拖到上班一周之后，赶在这个周末补上。&lt;/p&gt;
+    <content type="html">&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;&lt;strong&gt;现在&lt;/strong&gt;写毕业感言，或许有点晚了吧。6月29号毕业典礼结束后，也就宣布我们正式毕业了，不只是大学毕&lt;br&gt;业，而是我的学生生涯毕业。按照我矫情的性格，对于这种具有重大纪念意义的时刻，必然会写一篇文章来抒发一下感慨。但是由于毕业时候各种事情，没来的及，一直拖到上班一周之后，赶在这个周末补上。&lt;/p&gt;
 &lt;p&gt;在这篇随笔里，不会有什么华丽的辞藻，甚至语言逻辑可能都会不通顺。因为我不想再去拽文，再去狠狠地装一波。我只想通过流水账的形式表达我的一些感受，这也是我最真实的感受。我不是写给谁看，而是纪念我自己内心的感受，写给我自己，不喜勿喷，毕竟我还没有到达“嬉笑怒骂结成文章”的境界，虽然我也姓周。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/uploads/Graduation/admission.jpg&quot; alt=&quot;录取通知书&quot;&gt;&lt;img src=&quot;/uploads/Graduation/admission2.jpg&quot; alt=&quot;录取通知书2&quot;&gt;&lt;/p&gt;
 &lt;p&gt;2012年9月1日，我来到了燕山大学信息科学与工程学院软件工程2班。然后当天晚上我就去了网吧，写了一篇日志作为纪念，不信你们可以去我QQ空间去看。因为高中语文成绩略优，所以当时的我自认文笔非凡，再加上我闷骚的性格，遇事便拽文纪念一番。&lt;/p&gt;
@@ -3143,7 +3186,8 @@ Podfile
     
     <summary type="html">
     
-      &lt;p&gt;&lt;strong&gt;现在&lt;/strong&gt;写毕业感言，或许有点晚了吧。6月29号毕业典礼结束后，也就宣布我们正式毕业了，不只是大学毕&lt;br&gt;
+      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;&lt;strong&gt;现在&lt;/strong&gt;写毕业感言，或许有点晚了吧。6月29号毕业典礼结束后，也就宣布我们正式毕业了，不只是大学毕&lt;br&gt;业，而是我的学生生涯毕业。按照我矫情的性格，对于这种具有重大纪念意义的时刻，必然会写一篇文章来抒发一下
     
     </summary>
     
@@ -3159,9 +3203,10 @@ Podfile
     <link href="http://yoursite.com/2016/04/04/Memory-Manage-4-Memory-Optimization/"/>
     <id>http://yoursite.com/2016/04/04/Memory-Manage-4-Memory-Optimization/</id>
     <published>2016-04-04T08:05:46.000Z</published>
-    <updated>2018-05-13T12:26:58.674Z</updated>
+    <updated>2018-06-03T13:16:10.333Z</updated>
     
-    <content type="html">&lt;p&gt;所谓的内存优化，在设计程序的过程中，我们要在保证程序运行效率的前提下，尽量压缩程序运行时所占用的内&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;br&gt;存。无论硬件设备的内存有多大，程序运行时占用内存越少越好。下面我将介绍在开发项目过程中，一些优化内存的方法。&lt;/p&gt;
+    <content type="html">&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;所谓的内存优化，在设计程序的过程中，我们要在保证程序运行效率的前提下，尽量压缩程序运行时所占用的内&lt;br&gt;存。无论硬件设备的内存有多大，程序运行时占用内存越少越好。下面我将介绍在开发项目过程中，一些优化内存的方法。&lt;/p&gt;
 &lt;h4 id=&quot;1-关于UITableView&quot;&gt;&lt;a href=&quot;#1-关于UITableView&quot; class=&quot;headerlink&quot; title=&quot;1.关于UITableView&quot;&gt;&lt;/a&gt;1.关于UITableView&lt;/h4&gt;&lt;p&gt;在项目开发中，&lt;code&gt;UITableView&lt;/code&gt; 是用的比较多的一个视图控件。如果能够对 &lt;code&gt;UITableView&lt;/code&gt; 的使用做好优化，程序的性能将提高很多。&lt;/p&gt;
 &lt;h5 id=&quot;（1）善于使用UITableViewCell的重用机制&quot;&gt;&lt;a href=&quot;#（1）善于使用UITableViewCell的重用机制&quot; class=&quot;headerlink&quot; title=&quot;（1）善于使用UITableViewCell的重用机制&quot;&gt;&lt;/a&gt;（1）善于使用UITableViewCell的重用机制&lt;/h5&gt;&lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;重用机制&lt;/strong&gt;：这种机制下系统默认有一个可变数组 &lt;code&gt;NSMutableArray*  visiableCells&lt;/code&gt;,用来保存当前显示的cell。一个可变字典 &lt;code&gt;NSMutableDictnery* reusableTableCells&lt;/code&gt; ,用来保存可重复利用的cell。&lt;code&gt;UITableView&lt;/code&gt; 只会创建一屏幕的cell，放在 &lt;code&gt;visiableCells&lt;/code&gt;中。每当cell滑出屏幕，就会放到 &lt;code&gt;reusableTableCells&lt;/code&gt; 中，当要显示某一个位置的cell时，先去 &lt;code&gt;reusableTableCells&lt;/code&gt; 中取，如果有，直接取来用；如果没有，就会创建。这样极大减少了内存的开销。&lt;/p&gt;
@@ -3239,7 +3284,9 @@ Podfile
     
     <summary type="html">
     
-      &lt;p&gt;所谓的内存优化，在设计程序的过程中，我们要在保证程序运行效率的前提下，尽量压缩程序运行时所占用的内&lt;br&gt;
+      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;所谓的内存优化，在设计程序的过程中，我们要在保证程序运行效率的前提下，尽量压缩程序运行时所占用的内&lt;br&gt;存。无论硬件设备的内存有多大，程序运行时占用内存越少越好。下面我将介绍在开发项目过程中，一些优化内存的方法。&lt;/p&gt;
+&lt;h4 id=
     
     </summary>
     
@@ -3259,9 +3306,10 @@ Podfile
     <link href="http://yoursite.com/2016/03/30/Memory-Manage-3-ARC/"/>
     <id>http://yoursite.com/2016/03/30/Memory-Manage-3-ARC/</id>
     <published>2016-03-30T07:13:21.000Z</published>
-    <updated>2018-05-13T12:26:50.334Z</updated>
+    <updated>2018-06-03T13:16:00.491Z</updated>
     
-    <content type="html">&lt;p&gt;在&lt;a href=&quot;http://luoanhao.github.io/2016/03/29/Memory-Manage-2-MRC/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;上一篇&lt;/a&gt;文章中，我们主要&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;br&gt;介绍了基于&lt;strong&gt;MRC&lt;/strong&gt;环境下的内存管理。这篇文章主要介绍基于&lt;strong&gt;ARC&lt;/strong&gt;环境下的内存管理。从WWDC2011到现在已经有近5年的时间，ACR机制的应用已经十分成熟，如今在Xcode中新建项目，都默认开启ARC。下面我会从ARC的原理到使用进行详细讲解。&lt;/p&gt;
+    <content type="html">&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;在&lt;a href=&quot;http://luoanhao.github.io/2016/03/29/Memory-Manage-2-MRC/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;上一篇&lt;/a&gt;文章中，我们主要&lt;br&gt;介绍了基于&lt;strong&gt;MRC&lt;/strong&gt;环境下的内存管理。这篇文章主要介绍基于&lt;strong&gt;ARC&lt;/strong&gt;环境下的内存管理。从WWDC2011到现在已经有近5年的时间，ACR机制的应用已经十分成熟，如今在Xcode中新建项目，都默认开启ARC。下面我会从ARC的原理到使用进行详细讲解。&lt;/p&gt;
 &lt;h3 id=&quot;一、什么是ARC&quot;&gt;&lt;a href=&quot;#一、什么是ARC&quot; class=&quot;headerlink&quot; title=&quot;一、什么是ARC&quot;&gt;&lt;/a&gt;一、什么是ARC&lt;/h3&gt;&lt;p&gt;ARC——Automatic Reference Counting，自动引用计数。它&lt;strong&gt;不是运行时特性，不是垃圾回收器（GC）&lt;/strong&gt;，而是一种&lt;strong&gt;编译时特性&lt;/strong&gt;。    &lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Automatic Reference Counting (ARC) is a compiler-level feature that simplifies the process of managing object lifetimes (memory management) in Cocoa applications.&lt;/p&gt;
@@ -3418,7 +3466,8 @@ Podfile
     
     <summary type="html">
     
-      &lt;p&gt;在&lt;a href=&quot;http://luoanhao.github.io/2016/03/29/Memory-Manage-2-MRC/&quot;&gt;上一篇&lt;/a&gt;文章中，我们主要&lt;br&gt;
+      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;在&lt;a href=&quot;http://luoanhao.github.io/2016/03/29/Memory-Manage-2-MRC/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;上一篇&lt;/a&gt;文章中，我们主要&lt;br&gt;
     
     </summary>
     
